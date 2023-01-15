@@ -3,7 +3,7 @@
 	import logo from '$lib/assets/logo.png';
 </script>
 
-<div class="flex flex-row items-center justify-between w-full bg-black px-[5%] fixed top-0">
+<div class="flex flex-row items-center justify-between w-full bg-black px-[5%] sticky top-0">
 	<div>
 		<img src={logo} alt="Asymmetri" class="" />
 	</div>
