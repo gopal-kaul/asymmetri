@@ -3,5 +3,9 @@
 	import Navbar from '../lib/Navbar.svelte';
 </script>
 
-<Navbar />
-<slot />
+<div>
+	<Navbar />
+</div>
+<div>
+	<slot />
+</div>
