@@ -2,8 +2,8 @@
 	import Navbar from '../lib/Navbar.svelte';
 	import darrow from '../lib/assets/darrow.png';
 
-	let speed = 2;
-	let speed2 = 4;
+	let top_speed = 2;
+	let bottom_speed = 4;
 	let scroll;
 </script>
 
@@ -15,13 +15,13 @@
 <div class="absolute top-0 left-0 w-full h-[100.1vh]">
 	<div
 		class="h-[50vh] bg-black flex flex-col justify-between"
-		style:transform={`translate3d(0,-${scroll * speed}px,0)`}
+		style:transform={`translate3d(0,-${scroll * top_speed}px,0)`}
 	>
 		<Navbar />
 		<div class="" />
 		<h2 class="text-red-500 font-bold text-5xl px-[5%]"><span class="text-white">We build</span> awesome <br/> software!</h2>
 	</div>
-	<div class="h-[50vh] bg-black relative" style:transform={`translate3d(0,${scroll * speed2}px,0)`}>
+	<div class="h-[50vh] bg-black relative" style:transform={`translate3d(0,${scroll * bottom_speed2}px,0)`}>
 		<h2 class="text-white text-2xl">
 			<h2 class="text-white text-2xl pt-8 px-[5%] md:pr-[50%]">
 				Most of today's problems have software <br/> solutions. We help you find and execute <br/> them - in
