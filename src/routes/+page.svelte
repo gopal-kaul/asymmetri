@@ -29,7 +29,7 @@
 			</h2>
 		</h2>
 		<div class="absolute mt-0 ml-0">
-			<button class=" bg-transparent border-white w-64 border-[1px] py-2  ml-20 mt-10 px-5 text-white absolute z-10">Get Talent</button>
+			<button class=" bg-transparent border-white w-64 border-[1px] py-2  ml-20 mt-10 px-5 text-white absolute z-10">Let's Connect</button>
 			<button class=" bg-buttonRed  w-64 h-10 py-2  ml-[34.5%] mt-[17.8%] px-5 text-white relative z-1"></button>
 		</div>
 		<div class="mt-44 ml-[44%] text-gray-200 text-opacity-60 content flex pl-2">
