@@ -21,7 +21,7 @@
 		<div class="" />
 		<h2 class="text-red-500 font-bold text-5xl px-[5%]"><span class="text-white">We build</span> awesome <br/> software!</h2>
 	</div>
-	<div class="h-[50vh] bg-black relative" style:transform={`translate3d(0,${scroll * bottom_speed2}px,0)`}>
+	<div class="h-[50vh] bg-black relative" style:transform={`translate3d(0,${scroll * bottom_speed}px,0)`}>
 		<h2 class="text-white text-2xl">
 			<h2 class="text-white text-2xl pt-8 px-[5%] md:pr-[50%]">
 				Most of today's problems have software <br/> solutions. We help you find and execute <br/> them - in
